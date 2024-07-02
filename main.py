@@ -43,7 +43,7 @@ def resize_image(image_path, width, height):
 # Função para registrar o ponto no arquivo Excel
 def register_time(employee_name, image_path, tipo_registro):
     file_name = "registro_ponto.xlsx"
-    password = "cleria123"
+    password = "teste123"
 
     # Verifica se o arquivo já existe
     if os.path.exists(file_name):
